@@ -1,0 +1,74 @@
+/*body {
+    background-color: white;
+    height: 1920px;
+    width: 1080;;
+}
+
+#logo {
+    padding-left: 10%;
+    padding-top: 13%;
+    width: 160px;
+    height: 130px;
+}
+
+#us {
+    position: absolute;
+    top: 9%;
+    left: 88%;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 5px solid white;
+    display: inline-block;
+}
+
+#prodottiOrdinatiContainer {
+    float: right;
+    background-color: #efece5;
+    height: 100%;
+    width: 30%;
+}
+
+p:first-child {
+    font-size: 50px;   
+    padding-top: 135%;
+    padding-left: 18%; 
+}
+
+p:nth-child(2) {
+    padding-left: 18%; 
+    font-size: 30px;
+    margin-top: -8%;
+}
+
+p:nth-child(4) {
+    padding-left: 10%; 
+    padding-top: 11%;
+    font-size: 85px;
+}*/
+
+body{
+    background-color: white;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    //overflow-x: hidden;
+    //height: 1920px;
+    overflow-y: scroll;
+}
+
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+ 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(253, 253, 253, 0.541);
+    //background-color: ; /* Black background with opacity */
+    z-index: 1; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }

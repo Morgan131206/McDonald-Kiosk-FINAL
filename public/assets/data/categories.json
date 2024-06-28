@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Panini",
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/isolated--gran-crispymcbacon_1.png.webp?itok=Ucxz1KE2"
+    },
+    {
+        "name": "Bevande",
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/isolated--cocacola-medium-branded.png?itok=HTFXyvtK"
+    },
+    {
+        "name": "McFlurry",
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/mcflurry-pistacchio--isolated.png?itok=IiyP4Ov3"
+    },
+    {
+        "name": "Milk Shake",
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/milkashaek-fragola--isolated.png?itok=PJFAEMnT"
+    },
+    {
+        "name": "Piadine",
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/crispy-mcwrap-isolated-v2.png?itok=gDosyD-S"
+    },
+    {
+        "name": "Salse",
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/ketchup_isolated.png?itok=HM9kZYVJ"
+    },
+    {
+        "name": "Patatine",
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/patate-regolari_isolated_0.png?itok=1ZdnSZU1"
+    },
+    {
+        "name": "Nuggets",
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/isolated--nuggets-4x_0.png?itok=SuhH5kLk"
+    },
+    {
+        "name": "Insalate",
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/insalata-mista--isolated_0.png?itok=8wY9XxoC"
+    },
+    {
+        "name": "Happy Meal",
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/bundle/hm-hamburger--hero-isolated.png?itok=JQjtgYD5"
+    },
+    {
+        "name": "Mc Caffè",
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/isolated--donut-marshmallow.png?itok=bFF0FClN"
+    },
+    {
+        "name": "Sfiziosità",
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/isolated--panzerotti.png?itok=2ZS-9liy"
+    }
+
+]

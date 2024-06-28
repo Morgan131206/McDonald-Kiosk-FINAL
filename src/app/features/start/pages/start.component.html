@@ -1,0 +1,30 @@
+<body id="body" >
+
+  <!-- <div #overlay id="overlay" (click)="closeLanguageMenu()"></div> -->
+  
+  <app-language-menu></app-language-menu>
+
+  <div id="cover">
+      <div id="logo-div">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/McDonald%27s_Golden_Arches.svg/1170px-McDonald%27s_Golden_Arches.svg.png" id="logo" />
+      </div>
+      
+      
+      <p> <strong> Where will you be <br> eating today? </strong> </p>
+      <span class="circle"></span>
+    
+      <div  id="bottoni">
+    
+        <div routerLink="main" id="vassoio" (click)="this.modService.setMod('Eat In')"> 
+          <img id="imgWhereYouEat" src="assets/img/eat-in.png" />
+          <p> <strong> Eat In </strong> </p>
+        </div>
+        
+        <div routerLink="main" id="take" (click)="this.modService.setMod('Take Out')">
+          <img id="imgWhereYouEat" src="assets/img/take-out.png" />
+          <p> <strong> Take Out </strong> </p>
+        </div> 
+    
+      </div>
+  </div>
+</body>

@@ -1,0 +1,122 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px; 
+}
+
+.elementoCarrello img, .elementoCarrelloPresente img, .elementoCarrelloRimosso img{
+    width:100px;
+    height: 60px;
+}
+
+.elenco{
+    border-top: 0.5px solid rgb(214, 214, 214);
+    border-bottom: 0.5px solid  rgb(214, 214, 214);
+}
+.elementoCarrello, .elementoCarrelloPresente, .elementoCarrelloRimosso{
+    margin: 0px 50px;  
+    padding-top: 40px;
+    padding-bottom: 40px; 
+    
+}
+.elementoCarrello{
+    animation-name: inserisci;
+    animation-duration: 1.5s;
+}
+
+.elementoCarrello :first-child, .elementoCarrelloPresente :first-child,  .elementoCarrelloRimosso :first-child{
+    border-top: 0px;
+}
+
+@keyframes inserisci {
+    from{scale: 0;}
+    to{scale: 1;}
+    // from{transform: translateX(-120%);}
+    // to{transform: translateX(0%);}
+}
+
+.elementoCarrelloRimosso{
+    animation-name: rimuovi;
+    animation-duration: 0.8s;
+}
+
+@keyframes rimuovi { 
+    // 0%{transform: translateX(0%); margin-top: auto;}
+    //20%{ margin-top: -80px}
+
+    from{scale: 1;}
+    75%{scale: 0; margin-top: 0px;}
+    85%{scale: 0; margin-top: -289px;}
+    100%{scale: 0;}
+   // 90%{  margin-top: -289px;}
+
+    // from{scale: 1;}
+    // to{scale: 0; }
+    // 60%{height: 150px;}
+    // 65%{height: 120px;}
+    // 70%{height: 95px;}
+    // 80%{height: 85px;}
+    // 90%{height: 0px;}
+}
+
+.elementoCarrelloPresente img{
+    animation-name: reinserisci;
+    animation-duration: 1.5s;
+}
+
+@keyframes reinserisci {
+    from{scale: 0;}
+    //50%{scale: 0.5;}
+    to{scale: 1;}
+    // from{transform: translateX(-120%);}
+    // to{transform: translateX(0%);}
+}
+.quantitaProdottoCarrello {
+    font-size: 25px;
+    font-weight: bold;
+}    
+.elementoCarrello p, .elementoCarrelloPresente p, .elementoCarrelloRimosso p{
+    font-size: 25px;
+    margin: 5%;
+}
+
+.elementoCarrello :nth-child(2), .elementoCarrelloPresente :nth-child(2), .elementoCarrelloRimosso :nth-child(2){
+    font-weight: bold;
+}
+
+.decreaseProductQuantity {
+    float: left;
+    border: 1px solid rgb(208, 193, 193);
+    margin-left: 23%;
+}
+
+
+
+.decreaseProductQuantity, .increaseProductQuantity{
+    width: 45px;
+
+    font-size: 28px;   
+   // margin-top: -5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0.5%;
+    border-radius: 35%;
+    padding-bottom: 0.5%;
+}
+
+.increaseProductQuantity{
+    float: right;
+    background-color: #ffca40;
+    border: none;
+    margin-right: 23%;
+}
+
+.containerModifica{
+    margin-top: 25px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

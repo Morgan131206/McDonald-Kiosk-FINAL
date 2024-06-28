@@ -1,0 +1,23 @@
+<html>
+    <div id="overlay" (click)="toggleLanguageMenu()" [ngStyle]="{'display': displayMenu}"></div>  
+    <div id="flagDiv">
+        <img (click)="toggleLanguageMenu()" [src]="flagPath" id="flag"  />
+    </div>
+        <div #selezioneLingua id="selectionLanguage" [ngStyle]="{'display': displayMenu}">
+        <img (click)="toggleLanguageMenu()" src="assets/img/close.png" style="border: 0px" class="close" />            
+        <ul>
+            <li #en (click)="onFlagClick('assets/img/en.png', 'en')" [ngClass]="{'highlight': selectedLanguage === 'en'}">
+                <img src="assets/img/en.png" class="flagSelection" /><span>English</span>
+              </li>
+              <li #it (click)="onFlagClick('assets/img/it.png', 'it')" [ngClass]="{'highlight': selectedLanguage === 'it'}">
+                <img src="assets/img/it.png" class="flagSelection"/><span>Italiano</span>
+              </li>
+              <li #de (click)="onFlagClick('assets/img/de.png', 'de')" [ngClass]="{'highlight': selectedLanguage === 'de'}">
+                <img src="assets/img/de.png" class="flagSelection" /><span>Deutsch</span>
+              </li>
+              <li #es (click)="onFlagClick('assets/img/es.png', 'es')" [ngClass]="{'highlight': selectedLanguage === 'es'}">
+                <img src="assets/img/es.png" class="flagSelection" /><span>Español</span>
+              </li>
+        </ul>
+    </div>
+</html>

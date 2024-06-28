@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(255, 255, 255);
+    width: 75%;
+    padding: 50px;
+    padding-left: 5%;
+    padding-right: 0px;
+    padding-top: 15px;
+    float: left;
+    overflow-y: scroll;
+}
+
+#scroll{
+    overflow-y: scroll;
+}
+
+#prodotto img{
+    width:150px;
+    height: 110px;
+}
+
+#prodotto{
+    width:180px;
+    display: inline-block;
+    margin: 5px;
+    margin-top: 80px;
+    
+    border-radius: 30px;
+    text-align: center;
+}
+
+.price{
+    color:rgb(222, 189, 0);
+    font-size: 30px;
+    display: inline-block;
+    
+}
+
+.name{
+    padding-top: 10px;;
+    font-size: 30px;
+    height: 80px;
+    display: inline-block;
+}
+
+#popular{
+    margin-top: 0px;
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-left:20px ;
+    font-weight: 900;
+}
+
+#prodotti{
+    overflow-y: hidden;
+    overflow-x: scroll;
+    display: grid;
+    padding-right: 20px;
+    grid-template-columns: repeat(3, 210px);
+    grid-template-rows: repeat(1, 345px);
+}
+
+
+
+.disattivati {
+    opacity: 0.5;
+    filter: grayscale(0.7);
+}

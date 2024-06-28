@@ -1,0 +1,274 @@
+body {
+    margin: 0px;
+    overflow-y: hidden;
+}
+
+#order {
+    margin-top: 10vh;
+    background-color: #f8f8f7;
+    width: 350px;
+    height: 90vh;
+    top: 0;
+    right: 0;
+    text-align: center;
+    overflow: hidden;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#myOrder{
+    height: 175px;
+    margin-top: 170px;
+    border-bottom: 0.5px solid rgb(214, 214, 214);
+}
+#title {
+    text-align: left;
+    //margin-top: 350px;
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+}
+
+#products {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 1vh;
+    //box-sizing: ;
+    flex-grow: 1;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+#total {
+    border-top: 0.5px solid rgb(214, 214, 214);
+    font-size: 30px;
+    height: 480px;
+    color: #7e7e7e;
+
+}
+
+#total :first-child {
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+#totalOrdine {
+    font-weight: 600;
+    color: #000000;
+    font-size: 45px;
+    margin: 0px;
+}
+
+#total button {
+    background-color: #ffca40;
+    border: none;
+    font-size: 35px;
+    font-weight: 600;
+    border-radius: 35%;
+    padding: 80px 60px;
+    margin-top: 50px;
+}
+
+#take {
+    font-size: 30px;
+    color: #7e7e7e;
+    font-weight: 200;
+    line-height: 60px;
+    display: inline-block;
+}
+
+#title p {
+    margin: 3px;
+}
+//bottom sheet
+#personalizzaProdotto {
+    text-align: center;
+    position: fixed;
+    width: 100vw;
+    height: 1850px;
+    border-radius: 9%;
+    background-color: #f8f8f7;
+    z-index: 10;
+    text-align: center;
+    top: 100%; //18
+
+    position: fixed;
+}
+
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(253, 253, 253, 0.541);
+    z-index: 3; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
+#eliminatiOrdine {
+    color: white;
+    text-align: center;
+    margin:  15%;
+    position: fixed;
+    margin-top: 30%;
+    z-index: 50;
+    border-radius: 50px;
+    width: 750px;
+    height: 1200px;
+    background-color: #e70f00;
+    font-size: 50px;
+}
+
+#riepilogoOrdine {
+    display: none;
+    color: white;
+    text-align: center;
+    margin:  15%;
+    position: fixed;
+    margin-top: 40%;
+    z-index: 50;
+    border-radius: 50px;
+    width: 750px;
+    height: 1200px;
+    background-color: #008b2e;
+    font-size: 50px;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+#anteprimaProdotto {
+    height: 400px;
+    margin-top: 50px;
+}
+
+#itemAnt{
+    font-size:55px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+#priceAnt{
+    font-size:45px;    
+    color: #ffca40;
+    margin-top: 20px;
+    font-weight: 600;
+}
+#butAnt{
+    background-color: #f8f8f7;
+    width: 200px;
+    height: 100px;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    font-size: 45px;
+    padding-top: 40px;
+    margin: auto;
+}
+
+
+.decreaseProductQuantity2{
+    border: 1px solid rgb(208, 193, 193);
+}
+
+.decreaseProductQuantity2, .increaseProductQuantity2{
+    width: 65px;
+    font-size: 30px;   
+    margin-top: -5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 35%;
+}
+.increaseProductQuantity2{
+     background-color: #ffca40;
+    border: none;
+    
+   // padding-right: 50%;
+}
+
+#quant{
+    text-align: center;
+    height: 80px;
+}
+#quant span{
+    margin: 0px 50px;
+    font-size: 35px;
+}
+
+#doneAnt{
+    background-color: #ffca40;
+    border: none;
+    font-size: 35px;
+    font-weight: 600;
+    border-radius: 35%;
+    padding: 80px 60px;
+    margin-top: 100px;
+}
+#overlay2 {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(253, 253, 253, 0.541);
+    z-index: 9; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
+  .scroll-container {
+    margin: auto;
+    max-width: 300px;
+    height: 500px;
+    border: 1px solid white;
+    border-radius: 50px;
+    display: grid;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    grid-auto-flow:row;
+    text-align: center;
+    grid-template-columns: repeat(1, 300px);
+    grid-template-rows: repeat(1,350px);
+    
+}
+
+//bottoni per annullare ordine o confermarlo
+#cancellaOrdine {
+    float: left;
+    background-color: #ff4c46;
+    border: none;
+    font-size: 30px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 600;
+    padding: 15px 25px;
+    margin-top: 60px;
+    margin-left: 115px;
+}
+
+#procediOrdine {
+    float: right;
+    background-color: #ffbc11;
+    border: none;
+    font-size: 30px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 600;
+    padding: 15px 25px;
+    margin-top: 60px;
+    margin-right: 115px;
+}
+
+.elementOfConfirm {
+    border-bottom: 1px solid rgb(214, 214, 214);
+    padding-bottom: 50px;
+    padding-top: 50px;
+}

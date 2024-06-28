@@ -1,0 +1,26 @@
+
+    <body id="cat">
+        <div id="divLogo">
+            <img (click) = "popular() "src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/McDonald%27s_Golden_Arches.svg/1170px-McDonald%27s_Golden_Arches.svg.png" id="logo" />
+         </div>
+         <div id="hey">
+                <span>Hey,</span>
+                <br>
+                <span>what's up?</span>
+            </div>
+         <div>    
+            
+            
+            <div id="categories" [@spawn]="menuState" >
+            @for(x of categoriess; track $index){
+                <div id={{x.name}} class="category" (click)="getCategoryClick(x)" [ngClass]="{'selected': selectedCategory === x.name}">
+                    <img  src={{x.image}}/>
+                    <br>
+                    <span>{{ x.name }}<br></span>
+                </div>
+            }
+            </div>
+          </div>
+
+           <div id="blur"></div> 
+    </body>

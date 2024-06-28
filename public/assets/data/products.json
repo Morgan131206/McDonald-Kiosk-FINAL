@@ -1,0 +1,368 @@
+[
+    {
+        "item": "McCrispy",
+        "price": 5.99,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/isolated--crispymcbacon_0.png.webp?itok=hRRoZqi9",
+        "category": "Panini"
+    },
+    {
+        "item": "Toast",
+        "price": 5.99,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/toast--hero-isolated_0.png?itok=VFSHQ9c1",
+        "category": "Panini"
+    },
+    {
+        "item": "McChicken",
+        "price": 5.99,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/mcchicken--hero-isolated.png?itok=_8uEiFFU",
+        "category": "Panini"
+    },
+    {
+        "item": "GlutenFree Burger",
+        "price": 5.99,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/gluten-free-burger_isolated_1%201%20%281%29.png?itok=ygR07HPP",
+        "category": "Panini"
+    },
+    {
+        "item": "My Selection Chicken",
+        "price": 5.99,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/isolated--mys-pecorino-salsayuzu_0.png?itok=NxP1XDs7",
+        "category": "Panini"
+    },
+    {
+        "item": "Filet O Fish",
+        "price": 5.99,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/filet-o-fish--hero-isolated.png?itok=8dTIpi0a",
+        "category": "Panini"
+    },
+    {
+        "item": "Big Mac",
+        "price": 5.99,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/big-mac-isolated.png?itok=jQEbyoQJ",
+        "category": "Panini"
+    },
+    {
+        "item": "McMuffin Bacon Egg",
+        "price": 5.99,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/mcmuffin-bacon-egg_isolated.png?itok=IrH6CvaG",
+        "category": "Panini"
+    },
+    {
+        "item": "My Selection BBQ",
+        "price": 5.99,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/mys-bbq--hero-isolated.png?itok=_X1VHjgk",
+        "category": "Panini"
+    },
+    {
+        "item": "Acqua",
+        "price": 0.99,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/acqua-lilla_isolated.png?itok=VLnuTPh4",
+        "category": "Bevande"
+    },
+    {
+        "item": "Coca Cola Zero",
+        "price": 2.49,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/isolated--cocacola-zero-medium-branded.png?itok=HL2G21l2",
+        "category": "Bevande"
+    },
+    {
+        "item": "Coca Cola",
+        "price": 2.49,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/isolated--cocacola-medium-branded.png?itok=HTFXyvtK",
+        "category": "Bevande"
+    },
+    {
+        "item": "Fanta",
+        "price": 2.49,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/isolated--fanta-medium-branded_0.png?itok=9Ozj8iT7",
+        "category": "Bevande"
+    },
+    {
+        "item": "Sprite",
+        "price": 2.49,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/isolated--sprite-medium-branded_1.png?itok=7Tjr5l5a",
+        "category": "Bevande"
+    },
+    {
+        "item": "Tè alla Pesca",
+        "price": 2.49,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/isolated--lipton-pesca-medium-branded.png?itok=chF8Z6k7",
+        "category": "Bevande"
+    },
+    {
+        "item": "Tè al Limone",
+        "price": 2.49,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/isolated--lipton-limone-medium-branded.png?itok=ORYUCkEW",
+        "category": "Bevande"
+    },
+    {
+        "item": "Succo di Mela",
+        "price": 2.49,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/isolated-succo-mela.png?itok=Hs3lkAO1",
+        "category": "Bevande"
+    },
+    {
+        "item": "Spremuta",
+        "price": 2.49,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/tropicana-isolated.png?itok=a7nsAq1G",
+        "category": "Bevande"
+    },
+    {
+        "item": "Pistacchio",
+        "price": 2.99,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/mcflurry-pistacchio--isolated.png?itok=IiyP4Ov3",
+        "category": "McFlurry"
+    },
+    {
+        "item": "Snickers",
+        "price": 2.99,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/mcflurry-snickers--isolated_0.png?itok=1IeNWFtC",
+        "category": "McFlurry"
+    },
+    {
+        "item": "Oreo",
+        "price": 2.99,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/mcflurry-oreo--isolated_0.png?itok=M5LCUEUv",
+        "category": "McFlurry"
+    },
+    {
+        "item": "Baci Perugina",
+        "price": 2.99,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/mcflurry-baci--isolated_0.png?itok=ZxaFDvcR",
+        "category": "McFlurry"
+    },
+    {
+        "item": "Smarties",
+        "price": 2.99,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/mcflurry-smarties--isolated_0.png?itok=ctWWhKTj",
+        "category": "McFlurry"
+    },
+    {
+        "item": "Fragola",
+        "price": 2.99,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/milkashaek-fragola--isolated.png?itok=PJFAEMnT",
+        "category": "Milk Shake"
+    },
+    {
+        "item": "Vaniglia",
+        "price": 2.99,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/milkashaek-vaniglia--isolated.png?itok=V3aWoZ3k",
+        "category": "Milk Shake"
+    },
+    {
+        "item": "Cioccolato",
+        "price": 2.99,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/milkashaek-cioccolato--isolated.png?itok=ILpMd_ym",
+        "category": "Milk Shake"
+    },
+    {
+        "item": "Banana",
+        "price": 2.99,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/milkashaek-banana--isolated.png?itok=49YeRy2L",
+        "category": "Milk Shake"
+    },
+    {
+        "item": "McWrap con Pollo",
+        "price": 7.99,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/mcwrap-pollo-croccante-isolated_0.png?itok=EPxrAkzP",
+        "category": "Piadine"
+    },
+    {
+        "item": "Crispy McWrap",
+        "price": 7.99,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/crispy-mcwrap-isolated-v2.png?itok=gDosyD-S",
+        "category": "Piadine"
+    },
+    {
+        "item": "McBacon",
+        "price": 0.49,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/isolated--mcbacon-sauce.png?itok=EIY9HXhQ",
+        "category": "Salse"
+    },
+    {
+        "item": "Ketchup",
+        "price": 0.49,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/ketchup_isolated.png?itok=HM9kZYVJ",
+        "category": "Salse"
+    },
+    {
+        "item": "Maionese",
+        "price": 0.49,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/maionese_isolated.png?itok=j3X_IPeS",
+        "category": "Salse"
+    },
+    {
+        "item": "Barbecue",
+        "price": 0.49,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/salsa-barbecue_isolated.png?itok=TWij-AMH",
+        "category": "Salse"
+    },
+    {
+        "item": "Senape Piccante",
+        "price": 0.49,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/senape_isolated.png?itok=PPuyL2df",
+        "category": "Salse"
+    },
+    {
+        "item": "Agrodolce",
+        "price": 0.49,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/salsa-agrodolce_isolated.png?itok=zXmc4kBQ",
+        "category": "Salse"
+    },
+    {
+        "item": "Patatine Regolari",
+        "price": 1.49,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/patatine_isolated_0.png?itok=xgvaOcqQ",
+        "category": "Patatine"
+    },
+    {
+        "item": "Patatine Medie",
+        "price": 2.49,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/patate-regolari_isolated_0.png?itok=1ZdnSZU1",
+        "category": "Patatine"
+    },
+    {
+        "item": "Ricche Cheddar",
+        "price": 2.99,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/lericche-cheddar--isolated_2_0.png?itok=-nzTa7wz",
+        "category": "Patatine"
+    },
+    {
+        "item": "Ricche Cheese Bacon",
+        "price": 2.99,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/lericche-bacon--isolated_0_0.png?itok=UbIMypj0",
+        "category": "Patatine"
+    },
+    {
+        "item": "Chicken McNuggets",
+        "price": 2.99,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/isolated--nuggets-4x_0.png?itok=SuhH5kLk",
+        "category": "Nuggets"
+    },
+    {
+        "item": "Spicy Chicken McNuggets",
+        "price": 2.99,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/isolated--spicy-nuggets-6x_0.png?itok=i2xk51bP",
+        "category": "Nuggets"
+    },
+    {
+        "item": "Insalata con Pollo",
+        "price": 2.99,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/insalata-pollo-croccante-isolated.png?itok=rSlAA7ON",
+        "category": "Insalate"
+    },
+    {
+        "item": "Insalata Verde",
+        "price": 2.99,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/insalata-verde-isolated.png?itok=hrzB4hyl",
+        "category": "Insalate"
+    },
+    {
+        "item": "Insalata Mista",
+        "price": 2.99,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/insalata-mista--isolated_0.png?itok=8wY9XxoC",
+        "category": "Insalate"
+    },
+    {
+        "item": "Happy Meal Toast",
+        "price": 6.99,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/bundle/hm-toast--hero-isolated_0.png?itok=gS-TyDef",
+        "category": "Happy Meal"
+    },
+    {
+        "item": "Happy Meal Nuggets",
+        "price": 6.99,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/bundle/hm-nuggets--hero-isolated.png?itok=5exTPbgS",
+        "category": "Happy Meal"
+    },
+    {
+        "item": "Happy Meal Hamburger",
+        "price": 6.99,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/bundle/hm-hamburger--hero-isolated.png?itok=JQjtgYD5",
+        "category": "Happy Meal"
+    },
+    {
+        "item": "Happy Meal Chicken Burger",
+        "price": 6.99,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/bundle/hm-chickenburger--hero-isolated.png?itok=fvHWB89m",
+        "category": "Happy Meal"
+    },
+    {
+        "item": "Caffè espresso",
+        "price": 0.99,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/espresso-isolated.png?itok=5zsygoz2",
+        "category": "Mc Caffè"
+    },
+    {
+        "item": "Cappuccino",
+        "price": 1.49,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/cappuccino-isolated.png?itok=y8NywDQa",
+        "category": "Mc Caffè"
+    },
+    {
+        "item": "Cornetto alla Nutella",
+        "price": 1.49,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/croissant_nutella-isolated.png?itok=2tnApzac",
+        "category": "Mc Caffè"
+    },
+    {
+        "item": "Re Cacao",
+        "price": 1.49,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/croissant_re_cacao-isolated.png?itok=CXa5s2RU",
+        "category": "Mc Caffè"
+    },
+    {
+        "item": "Cheesecake alla Fragola",
+        "price": 2.99,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/torte_cheesecake-isolated.png?itok=-vFwph2s",
+        "category": "Mc Caffè"
+    },
+    {
+        "item": "Tiramisù",
+        "price": 2.99,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/torte_tiramisu-isolated.png?itok=7H_SrPzu",
+        "category": "Mc Caffè"
+    },
+    {
+        "item": "Donut Marshmallow",
+        "price": 1.49,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/isolated--donut-marshmallow.png?itok=bFF0FClN",
+        "category": "Mc Caffè"
+    },
+    {
+        "item": "Macaron Lampone",
+        "price": 1.99,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/macaron_lampone-isolated_0.png?itok=yDXA6CmA",
+        "category": "Mc Caffè"
+    },
+    {
+        "item": "GelaTino",
+        "price": 3.99,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/isolated--gelatino.png?itok=g6pxJGCN",
+        "category": "Mc Caffè"
+    },
+    {
+        "item": "Chicken Wings",
+        "price": 2.99,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/chicken_wings-isolated.png?itok=GW4p1tNm",
+        "category": "Sfiziosità"
+    },
+    {
+        "item": "Panzerotti",
+        "price": 2.99,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/isolated--panzerotti.png?itok=2ZS-9liy",
+        "category": "Sfiziosità"
+    },
+    {
+        "item": "Tasty Basket",
+        "price": 7.99,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/isolated--tasty-basket-nuggets-panzerotti-wings_0.png?itok=7cMyDitO",
+        "category": "Sfiziosità"
+    },
+    {
+        "item": "Parmigiano",
+        "price": 1.49,
+        "image": "https://www.mcdonalds.it/sites/default/files/styles/product_isolated_preview/public/products/snack_parmigiano-isolated_0.png?itok=1PjWQ1lN",
+        "category": "Sfiziosità"
+    }
+]

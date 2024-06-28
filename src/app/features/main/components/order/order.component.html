@@ -1,0 +1,96 @@
+<html>    
+<body id="ord">
+    <app-language-menu></app-language-menu>
+    <app-product (orderSelect)="openBottomSheet($event)"></app-product>
+    <div id="overlay2" (click)="closeBottomSheet()" [ngStyle]="{'display': overlay}"></div>  
+
+    <div id="order">
+        <div id="myOrder">
+        
+            <div id="title" >
+                <p><b>My</b></p>
+                <p><b>Order</b></p>
+                <p id="take">{{ modService.getMod() }}</p>
+            </div>
+        </div>
+
+        <div id="products" #ordered>
+            @for(o of ordina; track o){
+                <div class="elenco">
+                    <div [class]="o.state" [id]="o.product.item">
+                        <img [src]="o.product.image">
+                        <p>{{ o.product.item }}</p>
+                        <p class="price">{{ getFormattedPriceProduct(o.product.price) }}</p>
+                        <div id="modifica">
+                            <button class="decreaseProductQuantity" (click)="removeCarrello(o.product)" >-</button>
+                            <span class="quantitaProdottoCarrello" >{{o.quantity}}</span>
+                            <button class="increaseProductQuantity" (click)="addCarrello(o.product)">+</button>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <div id="total">
+            <p>Total</p>
+            <p id="totalOrdine">{{ getFormattedPrice() }}</p>
+            <button (click)="ordinazione()">Done</button>
+        </div>
+    </div>
+
+    <div id="personalizzaProdotto" #personalizzaProdotto [ngStyle]="{'top': valBottomSheet + '%'}">
+        <div (click)="closeBottomSheet()" id="butAnt">x</div>
+        <img id="anteprimaProdotto" [src]="selectedProduct?.image">
+        <p id="itemAnt">{{ selectedProduct?.item }}</p>
+        <p id="priceAnt">{{selectedProduct?.price }} €</p>
+        <div id="quant">
+            <button class="decreaseProductQuantity2" (click)="removeCarrelloFromBottomSheet()">-</button>
+            <span class="quantitaProdottoCarrello">{{ quantAnt }}</span>
+            <button class="increaseProductQuantity2" (click)="addCarrelloFromBottomSheet()">+</button>
+        </div>
+        <button id="doneAnt" (click)="done()">Done</button>
+    </div>
+
+    <div id="overlay" (click)="toggleRemovedAndDeactivated()" [ngStyle]="{'display': displayRemovedAndDeactivated}"></div>  
+    <div id="eliminatiOrdine" [ngStyle]="{'display': displayRemovedAndDeactivated}">
+        <h3>Attention!</h3>
+        <p style="margin: 20px;">Some of the products that you've ordered have been deleted or deactivated</p>
+        <div class="scroll-container"style="overflow-y: auto;max-height: 550px;" >
+
+            @for(e of removedAndDeactivated; track $index){
+            <div class="elementOfConfirm" style="height: 240px;">
+                <img height="90px" src={{e.product.image}}>
+                <p style="margin-top: 5px; font-size: 30px;">X{{e.quantity}}<br>{{e.product.item}} <br> {{this.getFormattedPriceProduct(e.product.price)}}</p>
+            </div>
+            }
+            
+
+        </div>
+        <button id="cancellaOrdine" (click)="toggleRemovedAndDeactivated()">Go Back</button>
+        <button  id="procediOrdine" (click)="toggleRemovedAndDeactivated()" (click)="confirm()">Confirm the Order</button>
+    </div>    
+
+    <div id="overlay2" (click)="toggleSummary()" [ngStyle]="{'display': displaySummary}"></div>  
+    <div id="riepilogoOrdine"  [ngStyle]="{'display': displaySummary}">
+        <h3>Order Summary</h3>
+        <div style="margin-bottom: 50px;">
+            <p style="margin-top: 5px; font-size: 30px;">The products that have been ordered: </p>
+        </div>
+        <div class="scroll-container"style="overflow-y: auto;max-height: 550px;"  >
+            
+            @for(o of this.ordina; track $index){
+                <div class="elementOfConfirm" style="height: 240px;">
+                <img height="90px" src={{o.product.image}}>
+                <p style="margin-top: 5px; font-size: 30px;">X{{o.quantity}}<br>{{o.product.item}} <br> {{this.getFormattedPriceProduct(o.product.price)}}</p>
+            </div>
+            }
+            
+        </div>
+        <b><p style="margin-bottom: 0;">Total <br> {{this.getFormattedPrice()}}</p></b>
+        <button (click)="toggleSummary()" id="cancellaOrdine">Go Back</button>
+        <button routerLink="../success" id="procediOrdine">Confirm the Order</button>
+    </div>    
+
+
+</body>
+</html>

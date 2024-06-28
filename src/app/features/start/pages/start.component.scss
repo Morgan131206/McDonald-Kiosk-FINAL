@@ -1,0 +1,192 @@
+#body {
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    width: 1080px;
+    height: 1920px;
+    overflow-y: hidden;
+    overflow-x: hidden ;
+    background-color:#f8f8f7;
+}
+
+#logo {
+    width: 315px;
+}
+
+#us {
+    margin-top: 100px;
+    margin-right: 80px;
+    float: right;
+    top: 0;
+    left: 0;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    border: 5px solid white;
+    display: inline-block;
+}
+
+p {
+    font-size: 60px;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.circle {
+    position: absolute;
+    top: 45%;
+    left: -235%;
+    height: 5000px;
+    width: 5000px;
+    background-color: #ffca40;
+    border-radius: 50%;
+    border: 7px solid white;
+    overflow: hidden;
+    margin: 0px;
+}
+
+
+
+#bottoni {
+    text-align: center;
+    position: absolute;
+    top: 57%;
+    left: 13%;
+    width: 75%;
+
+}
+
+#vassoio, #take{
+    text-align: center;
+   
+    width: 45%;
+    height: 45%;
+    background-color: white;
+    border-radius: 20%;
+    background-color: #f8f8f7;
+}
+#vassoio{
+     float: left;
+}
+
+#take {
+    float: right;
+}
+
+#take p, #vassoio p{
+    padding-top: 7px;
+}
+
+#imgWhereYouEat {
+    padding-top: 40px;
+    width: 250px;
+    height: 250px;
+}
+
+p:nth-child(2) {
+    margin-top: 0%;
+    font-size: 50px;
+}
+
+#logo-div{
+    text-align: center;
+    margin-top: 20%;
+}
+
+#cover {
+    width: 100%;
+    height: 100%;
+}
+
+//Language
+#flagMenu {
+    position: absolute;
+    top: 6%;
+    left: 55%;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.close {
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+    position: absolute;
+    top:0;
+    right: 0;
+    margin: 70px;
+}
+
+.flagselection {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: 6px solid rgb(255, 255, 255);
+}
+
+#selectionLanguage2 {
+    position: fixed;
+    text-align: left;
+    width: 600px;
+    height:600px;
+    background-color: #f8f8f7;
+    box-shadow: 0px 0px 10px 0.5px #d8d3c7;
+    z-index: 2;
+    border-radius: 6%;
+    margin: 50px;
+}
+
+#change{
+    text-align: center;
+}
+
+#selectionLanguage2 ul{
+    list-style: none;
+    width: 380px;
+    margin: 80px 40px;
+    margin-right: 100px;
+    justify-content: center;
+}
+
+#selectionLanguage2 ul li{
+    height: 87px;
+    font-size: 35px;
+    border-radius: 3%;
+    padding: 15px;
+    display: flex;
+    flex-direction:row;
+   
+}
+
+#selectionLanguage2 ul li span{
+     margin-top: 25px;
+     margin-left: 25px;
+}
+
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.466); /* Black background with opacity */
+    z-index: 1; /* Specify a stack order in case you're using a different order for other elements */
+
+  }
+
+  #schermo{
+    position: fixed; /* Sit on top of the page content */
+    //display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0; 
+  }

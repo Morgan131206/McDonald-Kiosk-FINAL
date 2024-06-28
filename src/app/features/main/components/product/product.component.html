@@ -1,0 +1,91 @@
+<html> 
+   <app-category (categorySelected)="onCategorySelected($event)"></app-category>
+    <body id ="prod">
+      
+       
+        @if(selectedCategory == null){
+            <span id="popular">Popular</span>
+            <div id="prodotti">
+                @for(n of populars; track n){
+                    @if(n.isActive){
+                    <div id="prodotto"  class="prodottiCaricati"(click)="addOrder(n)">
+                        <img src={{n.image}}/>
+                        <br>
+                        <span class="name">{{ n.item }}</span><br>
+                        <span class="price">{{ getFormattedPriceProduct(n.price) }}</span>
+                    </div>
+                    }
+                    @else {
+                        <div id="prodotto"  class="prodottiCaricati disattivati" >
+                            <img src={{n.image}}/>
+                            <br>
+                            <span class="name">{{ n.item }}</span><br>
+                            
+                            <span class="price">{{ getFormattedPriceProduct(n.price) }}</span>
+                            
+                        </div>
+                    }
+                }
+            </div>
+        }@else {
+            <p id="popular">{{ selectedCategory.name }}</p>
+            <div  id="prodotti">
+            <!-- @for(n of products; track n){
+                @if(n.category == selectedCategoryName){
+                    <div class="prodottiCaricati" id="prodotto" (click)="addOrder(n)">
+                        <img src={{n.image}}/>
+                        <br>
+                        <span class="name">{{ n.item }}</span><br>
+                        <span class="price">{{ getFormattedPriceProduct(n.price) }}</span>
+                    </div>
+                }
+            } -->
+           
+            <!-- @for(n of productInCategory; track n){ 
+                @if(n.isActive){
+                    <div id="prodotto"  class="prodottiCaricati"(click)="addOrder(n)">
+                        <img src={{n.image}}/>
+                        <br>
+                        <span class="name">{{ n.item }}</span><br>
+                        <span class="price">{{ getFormattedPriceProduct(n.price) }}</span>
+                    </div>
+                }
+                @else {
+                    <div id="prodotto"  class="prodottiCaricati disattivati">
+                        <img src={{n.image}}/>
+                        <br>
+                        <span class="name">{{ n.item }}</span><br>
+                        <span class="price">{{ getFormattedPriceProduct(n.price) }}</span>
+                    </div>
+                }
+             }  -->
+
+            @for(p of products; track p){
+                @for(c of p.categories; track $index){
+                    @if(c.id == selectedCategory.id){
+                        @if(p.isActive){
+                            <div id="prodotto"  class="prodottiCaricati"(click)="addOrder(p)">
+                                <img src={{p.image}}/>
+                                <br>
+                                <span class="name">{{ p.item }}</span><br>
+                                <span class="price">{{ getFormattedPriceProduct(p.price) }}</span>
+                            </div>
+                        }
+                        @else {
+                            <div id="prodotto"  class="prodottiCaricati disattivati">
+                                <img src={{p.image}}/>
+                                <br>
+                                <span class="name">{{ p.item }}</span><br>
+                                <span class="price">{{ getFormattedPriceProduct(p.price) }}</span>
+                            </div>
+                        }
+                        
+                    }
+                }
+            }
+        </div>
+        }
+
+        
+    </body>
+</html>

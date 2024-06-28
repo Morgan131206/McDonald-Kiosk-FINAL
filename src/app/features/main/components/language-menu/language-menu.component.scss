@@ -1,0 +1,114 @@
+body{
+    overflow: hidden;
+
+}
+
+#flag {
+    z-index: 3;
+    margin-top: 100px;
+    margin-right: 80px;
+    float: right;
+    top: 0;
+    left: 0;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    border: 5px solid white;
+    display: inline-block;
+    
+}
+
+
+//change language
+#flagMenu {
+    position: absolute;
+    top: 6%;
+    left: 55%;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.highlight {
+    box-shadow: 0px 0px 10px 1px #ffca40;
+}
+.close {
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+    position: absolute;
+    top:0;
+    right: 0;
+    margin: 70px;
+}
+
+#flagDiv{
+    position: fixed;
+    float:right;
+    right: 0;
+    z-index: 2;
+    width: 350px;
+    height: 200px;
+    background-color: #f8f8f7;
+}
+.flagSelection {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: 6px solid rgb(255, 255, 255);
+}
+
+#selectionLanguage {
+    position: fixed;
+    text-align: left;
+    left:-50;
+    display: none;
+    width: 600px;
+    height:600px;
+    background-color: #f8f8f7;
+    box-shadow: 0px 0px 10px 0.5px #d8d3c7;
+    z-index: 3;
+    border-radius: 6%;
+    margin: 50px;
+}
+
+#change{
+    text-align: center;
+}
+
+#selectionLanguage ul{
+    list-style: none;
+    width: 380px;
+    margin: 80px 40px;
+    margin-right: 100px;
+    justify-content: center;
+}
+
+#selectionLanguage ul li{
+    height: 87px;
+    font-size: 35px;
+    border-radius: 3%;
+    padding: 15px;
+    display: flex;
+    flex-direction:row;
+   
+}
+
+#selectionLanguage ul li span{
+     margin-top: 25px;
+     margin-left: 25px;
+}
+
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(253, 253, 253, 0.541);
+    z-index: 3; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
